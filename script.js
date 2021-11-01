@@ -2,8 +2,6 @@
 const btnTexto = document.querySelector("#btn"); // Captura o botão no DOM pelo id
 
 btnTexto.addEventListener("click", function () { // Adiciona um evento de click no botão capturado e assim que for clicado, executa a função.
- alert("it worked")
-
 
 //   const tagH1 = document.createElement("h1"); // Cria uma tag h1 e adiciona a let tagH1
 //   const h1Text = document.createTextNode("Texto criado no JS"); // Cria um texto e adiciona a let h1Text

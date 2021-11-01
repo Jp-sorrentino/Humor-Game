@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+}
+@font-face {
+	font-family: 'Montserrat1';
+	src: url(fonts/Montserrat/Montserrat-Thin.ttf);
+	font-style: normal;
+	font-weight: 100;}
+
+.container1 {
+   display: flex;  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   min-height: 900px
+}
+
+	
+.container1 div {
+  border: px rgb(2, 2, 2) solid;
+  padding: 10px;
+  justify-content: center; }
+
+
+
+.box1 {
+  flex: 105;
+  background-image: linear-gradient(130deg, rgb(59, 250, 183), rgb(58, 220, 203), rgb(23, 153, 125));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white; 
+}
+
+#pj {
+ 	margin-left: 2.2em;
+    font-size: 2.2em;}
+ #ng1 {
+	margin-left: 1.35em;
+	font-size: 3.4em;
+	font-family: Montserrat;}
+ #ng2 {
+	margin-left: 1em;
+	margin-top: -0.5em;
+	font-size: 4.5em;
+	font-family: Montserrat;}
+ #description {
+	margin-top: -0.5em;
+	margin-bottom: 5em;
+	margin: 6em;
+font-size: 0.7em;	}
+
+
+
+
+
+.box2 {
+  flex: 70;
+  justify-content: center;
+  background-image: url('../images/img.png'); /* Pega a imagem de fundo */
+  background-size: cover;
+  background-position-x: 43% ;
+}
+
+
+
+
+.box3 {
+  flex: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ #type {
+	margin-top: em;
+	border-color: black;
+	display: flex;
+	justify-content: center; }
+ #Character {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-color: black;}
+ #line {
+	display: flex;
+	justify-content: center; }
+ #Humor {
+	display: flex;
+	justify-content: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn {
+	margin-left: 4em;
+	background: linear-gradient(to right, gold, darkorange);
+	color: white;
+	--width: 250px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: calc(var(--height) / 4.5);
+	font-family: Montserrat;
+	letter-spacing: 0.2em;
+	border: 1px solid darkgoldenrod;
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+}
+
+#btn:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#btn::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+#btn:hover::before {
+	left: 100%;
+}

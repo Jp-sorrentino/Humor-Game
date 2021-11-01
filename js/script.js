@@ -3,8 +3,7 @@ let elementBtn = document.getElementById('btn') /* Cria a variável elementBtn e
 
 const elementName = document.getElementById('Character'); 
 const elementHumor = document.getElementById('Humor');
-const elementImg = document.getElementsByClassName('box2') Style.backgroundImage
-const 
+const elementImg = document.getElementsByClassName('box2') 
 
 elementBtn.addEventListener('click', () =>{ 
    
@@ -13,7 +12,7 @@ elementBtn.addEventListener('click', () =>{
         elementHumor.innerText = 'He is Red'
         elementBtn.value = 'two'
         elementImg.style.backgroundImage = url('../images/img2.png') 
-        
+
     } else if(elementBtn.value == "two") { 
         elementName.innerText = 'Tails the Fox' 
         elementHumor.innerText = 'He is yellow' 

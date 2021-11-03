@@ -21,7 +21,7 @@ body{
 
 
 
-.box1 {
+#box1 {
   flex: 105;
   background-image: linear-gradient(130deg, rgb(59, 250, 183), rgb(58, 220, 203), rgb(23, 153, 125));
   display: flex;
@@ -52,7 +52,7 @@ font-size: 0.7em;	}
 
 
 
-.box2 {
+#box2 {
   flex: 70;
   justify-content: center;
   background-image: url('../images/img.png'); /* Pega a imagem de fundo */
@@ -63,7 +63,7 @@ font-size: 0.7em;	}
 
 
 
-.box3 {
+#box3 {
   flex: 90;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@ font-size: 0.7em;	}
 
 
 
-
+/*  botão  */
 
 #btn {
 	margin-left: 4em;
